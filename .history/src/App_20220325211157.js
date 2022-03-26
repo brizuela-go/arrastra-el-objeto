@@ -18,7 +18,7 @@ export const App = () => {
           <motion.div className="item" drag dragConstraints={constraintsRef} />
         </motion.div>
       </div>
-      <div className="mt-5 ms-4 animate__animated animate__fadeInUp animate__delay-2s">
+      <div className="mt-5 ms-4 animate__animated animate__fadeInUp animate__delay2s">
         <iframe
           width="280"
           height="140"

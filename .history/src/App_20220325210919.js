@@ -18,10 +18,10 @@ export const App = () => {
           <motion.div className="item" drag dragConstraints={constraintsRef} />
         </motion.div>
       </div>
-      <div className="mt-5 ms-4 animate__animated animate__fadeInUp animate__delay-2s">
+      <div>
         <iframe
-          width="280"
-          height="140"
+          width="560"
+          height="315"
           src="https://www.youtube.com/embed/mKQSt0IyTVQ"
           title="YouTube video player"
           frameborder="0"
